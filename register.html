@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe | Steps</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    
+
+    <!-- Wrapper for the form -->
+    <div class="wrapper">
+        <div class="close_panel">
+            <a href="login.html"><button class="close"><i class="fa-solid fa-xmark"></i></button></a>
+        </div>
+        <form action="" method="post">
+            <h1>Sign up</h1>
+            <div class="input-box">
+                <input type="email" name="user" id="user" placeholder="Email" required>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" name="fname" id="fname" placeholder="Full Name" required>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="number" name="ph" id="ph" placeholder="Mobile Number"  required>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="input-box">
+                <input type="password" name="pass" id="pass" placeholder="Password" required>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="input-box">
+                <input type="password" name="confirmPass" id="confirmPass" placeholder="Confirm Password" required>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="remember-forget">
+                <label for="agree"><input type="checkbox" name="agree" id="agree">Remember me</label>
+                <!-- <label>
+                    <a href="#">Forget Password</a>
+                </label> -->
+            </div>
+            <button type="submit" class="btn">Sign up</button>
+
+            <div class="register-link">
+                <p>Already have an account? <a href="login.html">Sign in</a></p>
+            </div>
+        </form>
+    </div>
+
+  
+</body>
+
+</html>

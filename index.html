@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <!-- Video Background -->
+     <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="./assets/videos/hands.mp4" type="video/mp4">
+            <!-- Your browser does not support the video  -->
+        </video>
+    </div>
+
+
+    <div class="card">
+        <h2> <span class="word1">safe</span> &nbsp;&nbsp;&nbsp;&nbsp;<span  class="word2">steps!</span></h2>
+        <div class="para">
+            <p>Every Steps Matter's, safe steps You are never alone</p>
+        </div>
+        <div class="btn">
+        <a href="login.html"><button type="submit">Get Started&nbsp;<i class="fa-solid fa-chevron-right"></i></button></a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const video = document.getElementById("bg-video");
+            video.addEventListener("loadeddata", function () {
+                video.classList.add("loaded"); // Add 'loaded' class to show video
+            });
+        });
+    </script>
+</body>
+</html>
